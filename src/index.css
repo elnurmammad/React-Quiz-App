@@ -20,7 +20,7 @@ body {
 }
 
 .quiz-container {
-  width: 450px;
+  width: 420px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +39,7 @@ h1 {
 }
 
 hr {
-  height: 3px;
+  height: 2px;
   background-color: #4b07aa;
   margin-bottom: 13px;
   width: 95%;
@@ -64,7 +64,7 @@ li {
   margin-bottom: 14px;
   border-radius: 14px;
   font-weight: 700;
-  transition: 150ms;
+  transition: 200ms;
 }
 
 li:hover {
@@ -82,11 +82,11 @@ button {
   border-radius: 11px;
   margin-bottom: 7px;
   margin-top: 21px;
-  transition: 150ms;
+  transition: 200ms;
 }
 
 button:hover {
-  scale: 1.03;
+  scale: 1.04;
 }
 
 p {
@@ -97,10 +97,12 @@ p {
 
 .correct {
   background-color: rgba(17, 192, 1, 0.285);
+  border: 2px solid rgb(17, 192, 1);
 }
 
 .wrong {
   background-color: rgba(231, 4, 4, 0.175);
+  border: 2px solid rgb(231, 4, 4);
 }
 
 @media (max-width: 480px) {
@@ -111,18 +113,26 @@ p {
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 28px;
   }
   h2 {
     font-size: 16px;
   }
   .result {
     font-size: 24px;
+    text-align: center;
   }
   li {
     font-size: 16px;
   }
   button {
-    width: 95%;
+    padding: 11px 25px;
+    font-weight: 600;
   }
+}
+
+i{
+  color: aliceblue;
+  font-size: 15px;
+  margin-left: 5px;
 }

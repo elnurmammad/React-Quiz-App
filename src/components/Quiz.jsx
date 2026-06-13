@@ -111,7 +111,7 @@ function Quiz() {
           <h2 className="result">
             Your score is {score} out of {data.length}
           </h2>
-          <button onClick={tryBtn}>Try Again</button>
+          <button onClick={tryBtn}>Try Again <i class="fa-solid fa-arrow-rotate-left"></i></button>
         </>
       ) : (
         <></>
